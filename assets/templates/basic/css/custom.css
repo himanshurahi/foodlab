@@ -1,0 +1,39 @@
+.btn:focus{
+	outline:none;
+  	box-shadow:none;
+}
+.btn-primary{
+  	background-color: #000 !important;
+  	border:none;
+}
+.btn-danger {
+    color: #fff !important;
+    background-color: #dc3545 !important;
+    border-color: #dc3545 !important;
+}
+.support-btn{
+	height: 60px;
+    font-size: 40px;
+    line-height: 48px;
+}
+.support-input-group{
+    margin-top: 15px;
+}
+.error{
+	color: #dc3545;
+}
+.input-group label.error{
+    top: 100%;
+	position: absolute;
+}
+
+.starrr {
+    display: inline-block; 
+}
+.starrr a {
+    font-size: 24px;
+    padding: 0 1px;
+    cursor: pointer;
+    color: #FF5722;
+    text-decoration: none; 
+}

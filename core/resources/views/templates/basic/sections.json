@@ -1,0 +1,105 @@
+{
+    "banner": {
+        "builder": true,
+        "no_selection":true,
+        "name": "Banner Section",
+        "content": {
+            "images":{
+                "image":{
+                    "size":"1920x1090"
+                }
+            },
+            "sub_heading": "text"
+        },
+        "element": {
+            "animated_title": "text",
+            "modal": true
+        }
+    },
+    "restaurant": {
+        "builder": false,
+        "name": "All Restaurants"
+    },
+    "latest": {
+        "builder": false,
+        "name": "Latest Restaurants"
+    },
+    "deals": {
+        "builder": false,
+        "name": "Super Deals"
+    },
+    "offer": {
+        "builder": false,
+        "name": "Offer Section"
+    },
+    "featured": {
+        "builder": false,
+        "name": "Featured Section"
+    },
+    "policy_pages": {
+        "builder": true,
+        "no_selection":true,
+        "name": "Policy Pages",
+        "element": {
+            "title": "text",
+            "details": "textarea-nic",
+            "modal": false
+        }
+    },
+    "blog": {
+        "builder": true,
+        "name": "Blog Section",
+        "element": {
+            "images":{
+                "image":{
+                    "size":"1200x600",
+                    "thumb":"600x300"
+                }
+            },
+            "title": "text",
+            "description_nic": "textarea-nic",
+            "modal": false
+        }
+    },
+    "social_icon": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Social Icons",
+        "element": {
+            "title": "text",
+            "social_icon": "icon",
+            "url": "text",
+            "modal": true
+        }
+    },
+    "contact_us": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Contact Us",
+        "content": {
+            "title": "text",
+            "short_details": "text",
+            "map_key": "text",
+            "latitude": "text",
+            "longitude": "text"
+        },
+        "element": {
+            "icon": "icon",
+            "title": "text",
+            "details": "text",
+            "modal": true
+        }
+    },
+    "footer": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Footer Section",
+        "content": {
+            "title": "text",
+            "short_details": "text",
+            "subscribe_title": "text",
+            "subscribe_short_details": "text",
+            "copyright_details": "text"
+        }
+    }
+}
